@@ -1,0 +1,24 @@
+.parent{
+    height: 1000px;
+}
+
+.column1{
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+}
+
+.column2{
+    float: left;
+    height: 100%;
+    width: 60%;
+    background-color: red;
+}
+.column3{
+    float: left;
+    height: 100%;
+    width: 20%;
+    background-color: yellow;
+}
+
