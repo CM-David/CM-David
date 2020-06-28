@@ -1,0 +1,91 @@
+html {
+	margin :0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: "Roboto","sans-serif";
+	text-rendering: optimizeLegibility;
+	font-weight: 200;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+body {
+	background-color: #112b42;
+}
+
+h2 {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#container {
+	background-color: #562308;
+	margin: 1em;
+	padding: 1%;
+	width: 50%;
+	margin-left: 25%;
+}
+
+.images {
+	background-color: #112b42;
+	padding: 1%;
+}
+
+#player-hand {
+	margin : 0 auto;
+	padding: 0.5%;
+	background-color: #31172a;
+	height: 125px;
+}
+
+#dealer-hand {
+	margin : 0 auto;
+	padding: 1%;
+	background-color: #062c09;
+	height: 125px;
+}
+
+
+#deal-button {
+	width: 25%;
+	height: 10%;
+	display: inline-block;
+	position: relative;
+	margin: 1% 38%;
+	border-radius: 20px 2px;
+	overflow-wrap: break-word; /* when text-overflows break the letters and wrap in new-lines */
+}
+
+
+#hit-button,#stand-button {
+	width: 25%;
+	height: 10%;
+	display: inline-block;
+	margin: 0.5% 38%;
+	position : relative;
+	border-radius: 1% 2%;
+	overflow-x: hidden;		/* hide text that overflows in x-axis */
+	text-overflow: ellipsis;	/* add ... in button to show that some text is there */
+}
+
+.sumdisplay {
+	display: block;
+	text-align: center;
+}
+
+#player-points,#dealer-points {
+	display: block;
+	margin : 1% auto;
+	font-weight: bold;
+	text-align: center;
+	font-size: 16px;
+	padding: 1px;
+	max-width: 100%
+}
+
+footer {
+	text-align: center;
+	font-family: Impact;
+	position: relative;
+}
+
