@@ -1,3 +1,4 @@
+
 html {
 	margin :0;
 	padding:0;
@@ -10,7 +11,7 @@ html {
 }
 
 body {
-	background-color: #112b42;
+	background-color: darkgrey;
 }
 
 h2 {
@@ -18,74 +19,44 @@ h2 {
 	margin: 0 auto;
 }
 
-#container {
-	background-color: #562308;
+#table {
+	background-color:brown;
 	margin: 1em;
 	padding: 1%;
 	width: 50%;
 	margin-left: 25%;
 }
 
-.images {
-	background-color: #112b42;
+.hand {
+	background-color: darkolivegreen;
 	padding: 1%;
 }
 
 #player-hand {
 	margin : 0 auto;
 	padding: 0.5%;
-	background-color: #31172a;
+	background: rgb(19,131,46);
+    background: linear-gradient(180deg, rgba(19,131,46,1) 0%, rgba(19,139,49,1) 50%, rgba(26,172,11,1) 100%);
 	height: 125px;
 }
 
 #dealer-hand {
 	margin : 0 auto;
 	padding: 1%;
-	background-color: #062c09;
+	background: rgb(26,172,11);
+    background: linear-gradient(0deg, rgba(26,172,11,1) 0%, rgba(28,194,11,1) 50%, rgba(29,214,10,1) 100%);
 	height: 125px;
 }
 
 
-#deal-button {
-	width: 25%;
+
+#deal-button, #hit-button, #stand-button{
+	width: 15%;
 	height: 10%;
 	display: inline-block;
 	position: relative;
-	margin: 1% 38%;
+	margin: 1% 40%;
 	border-radius: 20px 2px;
 	overflow-wrap: break-word; /* when text-overflows break the letters and wrap in new-lines */
-}
-
-
-#hit-button,#stand-button {
-	width: 25%;
-	height: 10%;
-	display: inline-block;
-	margin: 0.5% 38%;
-	position : relative;
-	border-radius: 1% 2%;
-	overflow-x: hidden;		/* hide text that overflows in x-axis */
-	text-overflow: ellipsis;	/* add ... in button to show that some text is there */
-}
-
-.sumdisplay {
-	display: block;
-	text-align: center;
-}
-
-#player-points,#dealer-points {
-	display: block;
-	margin : 1% auto;
-	font-weight: bold;
-	text-align: center;
-	font-size: 16px;
-	padding: 1px;
-	max-width: 100%
-}
-
-footer {
-	text-align: center;
-	font-family: Impact;
-	position: relative;
 }
 
