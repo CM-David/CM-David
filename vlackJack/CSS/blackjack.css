@@ -29,7 +29,9 @@ h2 {
 
 .hand {
 	background-color: darkolivegreen;
-	padding: 1%;
+    padding: 1%;
+    height: 150px;
+    width: auto;
 }
 
 #player-hand {
@@ -58,5 +60,11 @@ h2 {
 	margin: 1% 40%;
 	border-radius: 20px 2px;
 	overflow-wrap: break-word; /* when text-overflows break the letters and wrap in new-lines */
+}
+
+
+#img{
+    height: 150px;
+    width: auto;
 }
 
