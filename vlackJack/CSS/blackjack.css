@@ -63,8 +63,9 @@ h2 {
 }
 
 
-#img{
-    height: 150px;
+img{
+    height: 125px;
     width: auto;
+    margin: 5px;
 }
 
